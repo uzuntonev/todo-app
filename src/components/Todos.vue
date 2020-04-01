@@ -49,17 +49,15 @@ export default {
   },
   methods: {
     async deleteTodo(todo) {
-      if(!confirm('Are you sure ?')) { return; }
-      
+      if (!confirm('Are you sure ?')) {
+        return;
+      }
+
       try {
         await http.delete(`delete-todo?id=${todo._id.$oid}`);
         this.$store.commit('deleteTodo', todo);
       } catch (err) {
-<<<<<<< HEAD
-        console.error(err);
-=======
         // console.error(err);
->>>>>>> todo app
       }
     },
     editTodo(todo) {
