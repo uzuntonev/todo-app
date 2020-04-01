@@ -1,5 +1,5 @@
 # todo-app
-This is a todo app that uses for back-end serverless platform MongoDB Stitch and front-end Vue.js and cloud database MongoDB Atlas. Implemented login and register for the user and all CRUD operation with HTTP call to MongoDB Stitch App. On the server-side integrated third-party service HTTP that uses incoming webhooks.
+This is a todo app that uses for front-end Vue.js, back-end serverless platform MongoDB Stitch and cloud database MongoDB Atlas. Implemented login and register for the user and all CRUD operation with HTTP call to MongoDB Stitch App. On the server-side integrated third-party service HTTP that uses incoming webhooks.
 
 ## Project setup
 ```
