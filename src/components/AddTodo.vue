@@ -45,7 +45,11 @@ export default {
         const { data } = await http.post('post-todo', todo);
         this.$emit('onNewTodo', { ...todo, _id: { $oid: data.insertedId } });
       } catch (err) {
+<<<<<<< HEAD
         console.error(err);
+=======
+        // console.error(err);
+>>>>>>> todo app
       }
 
       this.todoTitle = '';

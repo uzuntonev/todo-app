@@ -94,7 +94,11 @@ export default {
           password: this.password
         });
       } catch (err) {
+<<<<<<< HEAD
         console.error(err);
+=======
+        // console.error(err);
+>>>>>>> todo app
       }
       this.$store.commit('setAuth', !this.isAuth);
       this.username = '';
@@ -111,7 +115,11 @@ export default {
           password: this.regPassword
         });
       } catch (err) {
+<<<<<<< HEAD
         console.error(err);
+=======
+        // console.error(err);
+>>>>>>> todo app
       }
 
       this.regUsername = '';
